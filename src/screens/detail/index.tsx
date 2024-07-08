@@ -18,7 +18,7 @@ function Index() {
   return detailview === null ? <CLoader/> : (
     <div className='max-w-[1200px] mx-auto my-10'>
        <button onClick={()=> navigate(-1)} className='bg-[#0088ff] p-2 rounded-[30px] text-white' >BACK</button>
-       <div className='grid grid-cols-1 sm:grid-cols-2'>
+       <div className='grid grid-cols-1 sm:grid-cols-2 p-10 sm:p-10'>
             <div>
                 <img className='w-[300px] mx-auto' src={detailview.image} alt="" />
             </div>
